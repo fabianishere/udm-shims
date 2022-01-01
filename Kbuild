@@ -1,1 +1,1 @@
-obj-m := gpiodev-shim.o
+obj-m := gpiodev-shim.o ubnthal-shim.o
