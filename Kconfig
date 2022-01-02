@@ -1,0 +1,19 @@
+config UBNT_GPIODEV
+	tristate "LED control shim for the Ubiquiti UniFi Dream Machine (Pro)"
+	help
+	  Say Y here if you want to use
+
+	  To compile this driver as a module, choose M here: the module
+	  will be called gpiodev-shim.
+
+	  If unsure, say N.
+
+config UBNT_UBNTHAL
+	tristate "Hardware Abstraction Layer (HAL) shim for the Ubiquiti UniFi Dream Machine (Pro)"
+	help
+	  Say Y here if you want to use
+
+	  To compile this driver as a module, choose M here: the module
+	  will be called ubnthal-shim.
+
+	  If unsure, say N.
