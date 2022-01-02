@@ -23,6 +23,7 @@ MODULE_LICENSE("GPL v2");
 MODULE_AUTHOR("Fabian Mastenbroek <mail.fabianm@gmail.com>");
 MODULE_DESCRIPTION("LED control shim for the UniFi Dream Machine (Pro)");
 MODULE_VERSION("1.0");
+MODULE_ALIAS("gpiodev");
 
 #define PROC_DIR "gpiodev-shim" /* Proc directory where the shim is located */
 

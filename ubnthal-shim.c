@@ -29,6 +29,7 @@ MODULE_LICENSE("GPL v2");
 MODULE_AUTHOR("Fabian Mastenbroek <mail.fabianm@gmail.com>");
 MODULE_DESCRIPTION("HAL shim for the UniFi Dream Machine (Pro)");
 MODULE_VERSION("1.0");
+MODULE_ALIAS("ubnthal");
 
 #define PROC_DIR "ubnthal-shim" /* Proc directory where the shim is located */
 

@@ -18,6 +18,7 @@ MODULE_LICENSE("GPL v2");
 MODULE_AUTHOR("Fabian Mastenbroek <mail.fabianm@gmail.com>");
 MODULE_DESCRIPTION("ubnt-common shim for the UniFi Dream Machine (Pro)");
 MODULE_VERSION("1.0");
+MODULE_ALIAS("ubnt_common");
 
 static int __init ubnt_common_init(void)
 {
