@@ -52,8 +52,10 @@ static void gpio_exit_led(void)
 
 static void gpio_set_led(unsigned int color)
 {
+#ifdef CONFIG_LEDS_TRIGGER_EXTERNAL
 	ledtrig_external(0, color & 2);
 	ledtrig_external(1, color & 1);
+#endif
 }
 
 static void gpio_update_led(struct timer_list *unused)
